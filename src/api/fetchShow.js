@@ -1,7 +1,4 @@
-import React, { useEffect } from "react";
 import axios from "axios";
-
-import { formatSeasons } from "./utils/formatSeasons";
 
 export const fetchShow = () => {
   return axios
