@@ -6,12 +6,12 @@ import { fectShow as mockFetchShow } from "./api/fetchShow";
 
 jest.mock("./api/fetchShow");
 
-const episodeData = [
+const episodesData = [
   {
     id: 2993,
   },
 ];
 
 test("if it can make an API call", () => {
-  mockFetchShow.mockResolvedValue(episodeData);
+  mockFetchShow.mockResolvedValue(episodesData);
 });
