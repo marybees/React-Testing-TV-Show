@@ -3,7 +3,7 @@ import Dropdown from "react-dropdown";
 import parse from "html-react-parser";
 
 import { fetchShow } from "./api/fetchShow";
-import { formatSeasons } from "../utils/formatSeasons";
+import { formatSeasons } from "../src/utils/formatSeasons";
 
 import Episodes from "./components/Episodes";
 import "./styles.css";
